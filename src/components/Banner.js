@@ -11,7 +11,7 @@ const Banner = () => {
     };
     getAllProducts();
   }, []);
-  console.log(products.slice(0, 6));
+
   return (
     <div className="w-[90%] h-auto mx-auto flex gap-[20%] mt-5">
       <div className="w-[30%]">

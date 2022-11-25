@@ -10,16 +10,34 @@ import "swiper/css/navigation";
 
 const Caresoul = () => {
   return (
-    <div className="w-[90%] h-[90%] mx-auto flex gap-[20%] mt-5 py-[100px]">
+    <div className="w-[90%] h-[90%] mx-auto flex gap-[20%] mt-5 pt-[50px]">
       <Swiper className="mySwiper" autoplay={true} effect="fade">
         <SwiperSlide>
-          <img className="rounded-[20px]" src={one} alt="One" />
+          <img
+            className="rounded-[20px] object-cover w-full h-full object-center"
+            src={one}
+            alt="One"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-[20px]" src={two} alt="Two" />
+          <img
+            className="rounded-[20px] object-cover"
+            w-full
+            h-full
+            object-center
+            src={two}
+            alt="Two"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-[20px]" src={three} alt="Three" />
+          <img
+            className="rounded-[20px] object-cover"
+            w-full
+            h-full
+            object-center
+            src={three}
+            alt="Three"
+          />
         </SwiperSlide>
       </Swiper>
     </div>
